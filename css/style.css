@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  background-color: #e1ecda;
+  border-top: 4px solid #012406;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+.container {background: none repeat scroll 0 0 #fff;}
+.alert {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+h3{
+  background: none repeat scroll 0 0 #fff;
+  color: #2d2c68;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  padding: 10px;
+}
+
+/*.list-group-item {
+  background-color: #aed0b2;
+  border: 0px solid #ddd;
+  display: block;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 46px;
+  padding: 0 0 0 0px;
+}
+
+.list-group-item-success {
+  background-color: #e5fcd6;
+  border-bottom: 1px solid #8b998c;
+  border-radius: 4px;
+  color: #333;
+}*/
+/*.badge {
+  color: #056f14;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 46px;
+  min-width: 10px;
+  padding: 0 7px;
+  text-align: center;
+  background-color:transparent;
+}*/
+.badge {
+color: #056f14;
+background-color: transparent;
+}
+
+.glyphicon-ok::before {
+  font-size: 18px;
+  margin:0 10px 0 0;
+  color:#119407;
+}
+
+.radio label, .checkbox label {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+  min-height: 20px;
+  padding:0 ;
+}
+.panel {
+  border: 1px solid #ddd;
+  min-height: 100px;
+  margin:0;
+  
+}
+.breadcrumb{background-color:transparent; margin:0; color:#ccc;}
+.spacer{height:15px; width:100%; clear:both;}
+.text-bold{font-weight:bold; font-size:13px;}
+.title{
+	font:24px Arial,sans-serif;
+	text-align:center;
+	margin-top:25px;
+	display:block;
+}
+.titleBottom{
+	float:right;
+	margin-top:40px;
+}
+.green-bg{background:#006e2e; width:100%; height:40px; overflow:hidden;}
+.green-bg p{ line-height:40px; color:#fff; font-size:16px; text-align:center; margin:0; }
+.green-container{
+background: rgba(11,97,34,1);
+background: -moz-linear-gradient(left, rgba(11,97,34,1) 0%, rgba(39,121,21,1) 19%, rgba(64,132,23,1) 51%, rgba(39,121,21,1) 84%, rgba(11,97,34,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(11,97,34,1)), color-stop(19%, rgba(39,121,21,1)), color-stop(51%, rgba(64,132,23,1)), color-stop(84%, rgba(39,121,21,1)), color-stop(100%, rgba(11,97,34,1)));
+background: -webkit-linear-gradient(left, rgba(11,97,34,1) 0%, rgba(39,121,21,1) 19%, rgba(64,132,23,1) 51%, rgba(39,121,21,1) 84%, rgba(11,97,34,1) 100%);
+background: -o-linear-gradient(left, rgba(11,97,34,1) 0%, rgba(39,121,21,1) 19%, rgba(64,132,23,1) 51%, rgba(39,121,21,1) 84%, rgba(11,97,34,1) 100%);
+background: -ms-linear-gradient(left, rgba(11,97,34,1) 0%, rgba(39,121,21,1) 19%, rgba(64,132,23,1) 51%, rgba(39,121,21,1) 84%, rgba(11,97,34,1) 100%);
+background: linear-gradient(to right, rgba(11,97,34,1) 0%, rgba(39,121,21,1) 19%, rgba(64,132,23,1) 51%, rgba(39,121,21,1) 84%, rgba(11,97,34,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b6122', endColorstr='#0b6122', GradientType=1 );
+
+-webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.55);
+-moz-box-shadow:    0px 0px 30px 5px rgba(0, 0, 0, 0.55);
+box-shadow:         0px 0px 30px 5px rgba(0, 0, 0, 0.55);
+
+}
+
+.box{
+	background:none repeat scroll 0 0 #aed0b2;
+	border: 1px solid #aed0b2;
+}
+.box2{
+	background:none repeat scroll 0 0 #e1ecda;
+	border: 1px solid #cccdcc;
+}
+.box3{
+	background:none repeat scroll 0 0 #FFF;
+	border: 1px solid #FFF;
+}
+.wrap{padding:0 10px; min-height:795px;}
+
+.total {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 0;
+  text-align: right;
+}
+.total > span { margin-left:10px;}
+.checkbox > span{float:right; line-height:1;}
+hr{border-top:solid 1px #333; margin:10px 0; }
+.guarantee-text{
+	font-size:14px;
+	font-weight:700;
+	color:#666665;
+}
+.guarantee-text h2{
+	color:#2d2c68;
+	font-size: 18px;
+	font-weight:700;
+}
+.gb-cc-btn {
+  background: linear-gradient(to bottom, rgba(250, 168, 75, 1) 0%, rgba(196, 91, 6, 1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #8f4000;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0 0 2px #333;
+  width: 100%;
+  font-size:20px;
+}
+.logo-img{width:100%; height:45px;}
+
+
+/*------------------------------------- Responsive css --------------------------------*/
+
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+@media screen and (max-width: 980px) {
+.titleBottom { margin:15px 0;}
+.wrap{height:auto; overflow:hidden;}
+}
+
+
+
+@media screen and (max-width: 800px) {
+.titleBottom { margin:15px 0;}
+.wrap{height:auto; overflow:hidden;}
+}
+
+
+@media screen and (max-width: 768px) {
+.titleBottom { margin:15px 0;}
+.wrap{height:auto; overflow:hidden;}
+}
+
+@media screen and (max-width: 640px){
+.titleBottom { margin:15px 0; float:none;}
+.wrap{height:auto; overflow:hidden;}
+}
+
+@media screen and (max-width: 480px){
+.wrap{height:auto; overflow:hidden;}
+}
+
+
+@media screen and (max-width: 360px){
+.wrap{height:auto; overflow:hidden;}
+}
+
+@media screen and (max-width: 320px){
+
+.col-md-4{width:100% !important; padding:0 !important;}
+.container{padding:0 10px !important;}
+}
